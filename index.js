@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send('Hi thereasdfasdfa');
+    res.send('Hi there');
 });
 
 // Only listen when started directly: `node index.js`
