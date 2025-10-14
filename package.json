@@ -4,7 +4,7 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "start": "node index_old.js",
+    "start": "node index.js",
     "test": "jest --runInBand",
     "lint": "echo \"(no linter yet)\" && exit 0"
   },
