@@ -1,0 +1,21 @@
+# Node.js dependencies
+node_modules
+npm-debug.log
+yarn.lock
+pnpm-lock.yaml
+
+# Git & IDE
+.git
+.gitignore
+.vscode
+.idea
+
+# Tests & Artefakte
+__tests__/
+coverage/
+*.spec.js
+*.test.js
+
+# OS & Temp
+.DS_Store
+*.swp
