@@ -39,8 +39,8 @@ jobs:
       IMAGE: ghcr.io/${{ github.repository }}
       TAG_LATEST: latest
       TAG_SHA: sha-${{ github.sha }}
-      APP_PORT: 3000        # passe an, falls deine App einen anderen Port nutzt
-      HEALTH_URL: http://127.0.0.1:3000/health  # fallback unten prüft "/" falls /health nicht existiert
+      APP_PORT: 8080        # passe an, falls deine App einen anderen Port nutzt
+      HEALTH_URL: http://127.0.0.1:8080/health  # fallback unten prüft "/" falls /health nicht existiert
 
     steps:
       - name: Checkout repository
