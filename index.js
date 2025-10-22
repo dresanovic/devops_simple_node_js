@@ -24,7 +24,7 @@ const PORT = process.env.PORT ? Number(process.env.PORT) : 8080;
 // Only listen when started directly: `node index.js`
 if (require.main === module) {
     app.listen(PORT, () => {
-        console.log(`Listening on port ${PORT}`);
+        console.log(`Listening on ports ${PORT}`);
     });
 }
 
